@@ -1,0 +1,115 @@
+body {
+  padding-top: 5rem;
+}
+#starter-template {
+  padding-top: 5rem;
+  padding-bottom: 3rem;
+  padding-right: 1.5rem;
+  padding-left: 1.5rem;
+}
+h1 {
+  color: rgb(74, 74, 168);
+  text-align: center;
+  border-style: solid;
+  height: fit-content;
+  width: fit-content;
+  border-color: black;
+  padding: 10px;
+  margin: auto;
+  text-decoration: none;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+p {
+  font-family: cursive, sans-serif;
+  font-size: 14px;
+  border-radius: 8px;
+  
+  text-decoration: none;
+  border: .75px solid rgb(187, 187, 187);
+  border-radius: 8px;
+}
+
+h2 {
+  color: rgb(90, 25, 38);
+  text-decoration: none;
+  padding: 10px;
+}
+
+h3 {
+  text-decoration: none;
+  transition: color 1s ease;
+}
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  color: green;
+}
+
+.navbar-brand {
+  justify-content: left;
+  text-decoration: none;
+  padding: 1%;
+
+  align-items: center;
+}
+
+.nav-link {
+  width: 200px;
+  color: rgb(190, 24, 24);
+  background-color: blanchedalmond;
+}
+.proposal {
+  color: darkslategray;
+  padding: 10px;
+  width: auto;
+  background-color: rgb(255, 255, 255);
+}
+
+img {
+  display: block;
+  margin: 0 auto 25px auto; 
+  border-radius: 8px;
+  width: 50%;
+  max-width: 100%; 
+  height: auto; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+  
+ 
+}
+.nav-end {
+  background-color: rgb(252, 246, 211);
+  border: .75px solid rgb(0, 0, 0);
+  border-radius: 8px;
+  padding: 20px;
+  max-width: 600px;
+  margin: 0 auto;
+}
+.nav-end a {
+  display: block;
+  color: #000000;
+  text-decoration: none;
+  padding: 10px 0;
+  border-bottom: .5px solid #000000;
+  transition: color 1s ease;
+}
+
+
+.nav-end a:hover {
+  color: #007BFF;
+}
+.box{
+  border: 1.5px solid rgb(151, 151, 151);
+  border-radius: 4px;
+  margin: 0 auto;
+  padding: 2px; 
+  display: inline-block; 
+  max-width: 100%;
+}
+.box:hover {
+  border-color: blue
+}
